@@ -1,0 +1,19 @@
+version: 2
+sources:
+  - name: conformed
+    database: raw
+    schema: conformed
+    tables:
+      - name: datedimension
+  - name: northwind
+    database: raw
+    schema: northwind
+    tables:
+      - name: customers
+      - name: products
+      - name: employees
+      - name: orders
+      - name: order_details
+      - name: categories
+      - name: suppliers
+      - name: shippers
